@@ -15,7 +15,7 @@ cp -Rf /tmp/src/*.html ./
 
 DATE='date "+ %b %d %Y, %H:%M %p"'
 
-echo $DATE >> ./info.html
+echo "$DATE" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
